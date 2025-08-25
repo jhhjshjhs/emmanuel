@@ -1,0 +1,110 @@
+.ad-image{
+    width:100%;
+    height: 550px;
+    position: relative;
+}
+.ad{
+    margin-top: 67px;
+}
+.ad-text{
+    color:antiquewhite;
+    font-size: 70px;
+    position:absolute;
+    top: 270px;
+    left: 20px;
+}
+.subad-text{
+font-size: 32px;
+left:20px;
+}
+.categories{
+    height: 335px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+.necklace{
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+}
+.necklace-hover{
+     border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+    position: absolute;
+    bottom:-311px;
+    opacity:0;
+}
+.necklace-hover:hover{
+    opacity: 1;
+    transition-duration: 2s;
+}
+.earring{
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width:336.9px ;
+    height: 336.9px;
+}
+.earring-hover{
+      border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+     position: absolute;
+    bottom:-666px;
+    opacity:0;
+}
+.earring-hover:hover{
+    opacity: 1;
+    transition-duration: 2s;
+}
+.bracelet{
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+}
+.bracelet-hover{
+      border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+     position: absolute;
+    bottom:-1023px;
+    opacity:0;
+}
+.bracelet-hover:hover{
+    opacity:1;
+    transition-duration: 2s;
+}
+.bags{
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+}
+.bags-hover{
+      border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 336.9px;
+    height: 336.9px;
+     position: absolute;
+    bottom:-1380px;
+    opacity:0;
+}
+.bags-hover:hover{
+    opacity: 1;
+    transition-duration: 2s;
+}
